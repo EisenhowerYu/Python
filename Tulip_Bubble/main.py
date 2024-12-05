@@ -60,15 +60,20 @@ def makeFlowers(colors, codes):
   return 0
 
 # Console
-red = Player("Vincent")
+# red = Player("Aidz")
+# print(red)
 
-a = [Flower("red", "A", 1, 1),
-     Flower("red", "A", 1, 2)]
+# red.addCoin(10)
+# print(red)
 
-for flower in a:
-  red.addHand(flower)
+# red.spendCoin(20)
+# print(red)
 
-for item in red.hand:
-  print(item)
+# a = [Flower("red", "A", 1, 1),
+#      Flower("red", "A", 1, 2)]
 
-  me and the homies use gitlab
+# for flower in a:
+#   red.addHand(flower)
+
+# for item in red.hand:
+#   print(item)
